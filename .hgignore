@@ -21,6 +21,8 @@ syntax: glob
 *.rar
 *.tar
 *.zip
+*.pkg
+*.mpkg
 
 # Logs and databases #
 ######################
