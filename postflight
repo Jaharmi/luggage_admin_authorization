@@ -1,0 +1,8 @@
+#!/bin/bash
+
+SCRIPT_NAME="${0}"
+PACKAGE_USER=`/usr/bin/whoami`
+/bin/echo "Running ${SCRIPT_NAME} as ${PACKAGE_USER}"
+/bin/echo "Attempting to use sudo"
+/bin/echo -n "With sudo, I now have the privileges of "
+/usr/bin/sudo /usr/bin/whoami
